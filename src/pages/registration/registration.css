@@ -1,0 +1,33 @@
+.checkout-box__forms{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    margin: auto;
+    gap: 0.5rem;
+}
+
+.checkout-box__label{
+    color: rgb(37, 150, 190);
+}
+
+.checkout-box__title{
+    margin: auto;
+    color: rgb(37, 150, 190);
+}
+
+.btn-checkout{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.btn-to-catalog{
+    background-color: rgba(255,218,236,255);
+    color: rgb(37, 150, 190);
+    border: 2px solid transparent;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.objects {
+    padding-top: 2rem;
+    background-color: rgba(255,218,236,255);
+    border-radius: 50px;
+}
+
+.objects__cards {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(37, 150, 190);
+}
+
+.card__button{
+    display: none;
+}
+
+@media screen and (max-width: 480px){
+    .objects__cards{
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+    }
+}

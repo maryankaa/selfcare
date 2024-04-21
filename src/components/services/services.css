@@ -1,0 +1,71 @@
+.services {
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.services__content {
+    width: 100%;
+    background-color: rgba(255,218,236,255);
+    border-radius: 40px;
+    text-align: center;
+}
+
+.services__title{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(37, 150, 190);
+    text-align: center;
+    padding-top: 1.5rem;
+
+}
+
+.six-column-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+    position: relative;
+    flex: 1; /* Кожна колонка займає однаковий простір */
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    width: 467px;
+    height: 430px;
+    background-color: #D9D9D9BF;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 27px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.overlay-content {
+    color: #ED6BAA;
+    margin: 2.125rem 4.2rem;
+}
+
+.overlay-content__button{
+    margin-right: -22.8rem;
+    cursor: pointer;
+}
+
+.image-overlay.active {
+  display: flex; /* Показати при активному стані */
+}
+

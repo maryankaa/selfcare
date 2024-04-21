@@ -1,0 +1,23 @@
+.success-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.success-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.success-box h2, .success-box a1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(37, 150, 190);
+}
+
+.success-box a{
+    color: rgb(37, 150, 190);
+    margin-bottom: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,141 @@
+.first_part, .second_part{
+    display: flex;
+    gap: 1rem;
+}
+
+.first_part_left{
+    width: 50%;
+    border: 2px solid rgba(255, 218, 236, 1);
+    height: 28.5rem;
+}
+
+.first_part_right{
+    width: 50%;
+    border: 2px solid rgba(255, 218, 236, 1);
+    height: 28.5rem;
+}
+
+.second_part_left{
+    width: 50%;
+}
+
+.second_part_left_first, .second_part_left_second, .second_part_left_third {
+    margin-top: 1rem;
+    border: 2px solid rgba(255, 218, 236, 1);
+    gap: 1rem;
+    height: 18.75rem;
+}
+
+
+.second_part_right{
+    width: 50%;
+    height: 58.75rem;
+    margin-top: 1rem;
+    border: 2px solid rgba(255, 218, 236, 1);
+}
+
+.first_part_left_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(237, 107, 170, 1);
+}
+
+.second_part_left_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(237, 107, 170, 1);
+}
+
+.second_part_right_title{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 40px;
+    color: rgba(237, 107, 170, 1);
+}
+
+.first_part_left_first_description_services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3.5rem;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(37, 150, 190, 1);
+    border-bottom: 2px solid rgba(255, 218, 236, 1);
+}
+
+.first_part_left_first_description_services_text{
+    width: 37.5rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    height: 2rem;
+}
+
+.first_part_left_first_description_services_number{
+    margin-right: 1rem;
+    height: 2rem;
+}
+
+.first_part_left_second_description_services, .first_part_left_third_description_services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(37, 150, 190, 1);
+    border-bottom: 2px solid rgba(255, 218, 236, 1);
+}
+
+.first_part_left_fourth_description_services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(37, 150, 190, 1);
+}
+
+.first_part_right_first_description_services{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(37, 150, 190, 1);
+    border-bottom: 2px solid rgba(255, 218, 236, 1);
+}
+
+.first_part_right_first_description_services_text{
+    margin-left: 1rem;
+    margin-top: 1.25rem;
+    height: 2rem;
+}
+
+.second_part_right_woman{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    color: rgba(237, 107, 170, 1);
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.second_part_right_man{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    color: rgba(237, 107, 170, 1);
+    font-weight: 600;
+    font-size: 24px;
+}

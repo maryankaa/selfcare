@@ -1,0 +1,78 @@
+.card {
+    position: relative;
+}
+
+.card:hover .card__img {
+    animation: opacity 0.2s ease-in-out;
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.card:hover .card__price {
+    animation: slide 0.5s ease-in-out;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    50% {
+        left: -20px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.card__link {
+    left: -1rem;
+    top: 0;
+}
+
+.card__img {
+    margin-bottom: 28px;
+    border-radius: 20px;
+}
+
+.card__body {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 7px;
+    align-items: center;
+
+}
+
+.card__title {
+    color: #111111;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 2.08;
+}
+
+.card__desc {
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 2.08;
+    width: 19.875rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: -2rem;
+}
+
+.card__price {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 2.08;
+    position: relative;
+}

@@ -1,0 +1,17 @@
+.button-register{
+    display: flex;
+    justify-content: center;
+}
+
+.register{
+    background-color: rgba(255,218,236,255);
+    color: rgb(37, 150, 190);
+    border: 2px solid transparent;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-size: 35px;
+    list-style: none;
+    margin-top: 4rem;
+    font-style: italic;
+    font-weight: 600;
+}

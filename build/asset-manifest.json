@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d85af307.css",
+    "main.js": "/static/js/main.fd2ec9c9.js",
+    "static/media/promo.png": "/static/media/promo.8f099c5535ce2e71c6e1.png",
+    "static/media/success.png": "/static/media/success.5be445f205c11f023fd9.png",
+    "static/media/selfcare.svg": "/static/media/selfcare.95232a13c9965d339f9e6cc768a89b72.svg",
+    "static/media/advantage.svg": "/static/media/advantage.a6564c261f80e4964e542018ae9a6ebe.svg",
+    "index.html": "/index.html",
+    "main.d85af307.css.map": "/static/css/main.d85af307.css.map",
+    "main.fd2ec9c9.js.map": "/static/js/main.fd2ec9c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d85af307.css",
+    "static/js/main.fd2ec9c9.js"
+  ]
+}
